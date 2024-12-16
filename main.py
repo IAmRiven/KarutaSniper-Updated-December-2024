@@ -257,11 +257,7 @@ class Main(discord.Client):
                 if "4" in img and self.cardnum != 4:
                     continue
                 if "top" in img:
-                    custom_config = (
-                        r"--psm 6 --oem 3 -c "
-                        r'tessedit_char_whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-                        r'@&0123456789/:- " '
-                    )
+                    custom_config = r'--oem 3 --psm 6'
                     charlist.append(
                         pytesseract.image_to_string(
                             Image.open(
@@ -270,18 +266,13 @@ class Main(discord.Client):
                                 + re.sub(r"\D", "", img)
                                 + ".png"
                             ),
-                            lang="eng",
-                            config=custom_config
+                            lang="eng"
                         )
                         .strip()
                         .replace("\n", " ")
                     )
                 elif "bottom" in img:
-                    custom_config = (
-                        r"--psm 6 --oem 3 -c "
-                        r'tessedit_char_whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-                        r'@&0123456789/:- " '
-                    )
+                    custom_config = r'--oem 3 --psm 6'
                     anilist.append(
                         pytesseract.image_to_string(
                             Image.open(
@@ -290,8 +281,7 @@ class Main(discord.Client):
                                 + re.sub(r"\D", "", img)
                                 + ".png"
                             ),
-                            lang="eng",
-                            config=custom_config
+                            lang="eng"
                         )
                         .strip()
                         .replace("\n", " ")
@@ -303,8 +293,7 @@ class Main(discord.Client):
                     printlist.append(
                         pytesseract.image_to_string(
                             Image.open(path_to_ocr + f"\\char\\{img}"),
-                            lang="eng",
-                            config=custom_config
+                            lang="eng"
                         ).strip()
                     )
             vprint(f"Anilist: {anilist}")
