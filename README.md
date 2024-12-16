@@ -1,3 +1,12 @@
+⚠️ This bot was not MY CREATION or IDEA, some guys just told me to fix a code and I agreed, since they were friends.
+
+⚠️ I DO NOT USE ANY BOT TO PLAY KARUTA!
+
+⚠️ But I didn't think it was right that they try to market a code that is not theirs, that's why I prefer to share the code/bot that works.
+
+Fixed version:
+- We have fixed the error that did not recognize the letters in the images.
+
 # KarutaSniper
 A bot to automate collecting cards for the discord game Karuta
 
@@ -88,10 +97,5 @@ I wont explain features that explain themselves
 This is for educational purposes only blah blah blah, I don't condone breaking discord's TOS or karuta's, it is not my fault if you get banned from karuta or discord.
 
 Also dont be that guy who clones this repo and then updates config.json with his token which basically gives anyone access to his account (yes someone did this)
-
-## Contact Me
-This is my current discord tag, and only public way to contact me (besides github)
-
-Discord: ```NoMeansNo#5750```
 
 Just Please use your brain when communicating, [don't start by saying hi and waiting for a response](https://nohello.net)
