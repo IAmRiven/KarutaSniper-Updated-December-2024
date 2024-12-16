@@ -1,4 +1,7 @@
-⚠️ Read this :)
+
+
+<h2>KarutaSniper</h2>
+A bot to automate collecting cards for the discord game Karuta<br><br>
 
 This bot was not MY CREATION or IDEA, some guys simply told me to fix a code and I agreed, since they were friends.
 
@@ -9,4 +12,4 @@ But I did not think it was right that they try to commercialize a code that is n
 Fixed version:
 - We have fixed the error that did not recognize the letters in the images.
 
-We have simply changed the main.py.
+We have simply changed the main.py.</strong>
